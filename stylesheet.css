@@ -1,6 +1,6 @@
 html{
     font-family: 'Indie Flower', cursive;
-    background-color: #F2E9DE;
+    background-color: #FAF4ED;
     color: #393552;
 }
 
@@ -17,4 +17,56 @@ h1{
     float: right;
     padding: 1em;
     font-size: 20px;
+}
+
+
+.newnoteButton{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #26233a;
+}
+
+.themeButton{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #26233a;
+}
+
+.saveButton{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #26233a;
+}
+
+.cancelButton{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #26233a;
+}
+
+textarea{
+    letter-spacing: 1px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 3px solid #6e6a86;
 }
