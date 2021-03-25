@@ -11,52 +11,68 @@
 </head>
 
 
+
+
 <body>
-    <header class="betternotes">
-        <h1>Take Better Notes</h1>
-        <nav>
-            <ul>
-                <li> <a href="" title="About Me"> About</a></li>
-                <li> <a href="" title="School page">Docs</a></li>
-            </ul>
-        </nav>
-    </header>
+    <main>
+        <header class="mainTitle">
+            <h1>Take Better Notes</h1>
+            <nav>
+                <li>About</li>
+                <li>Docs</li>
+            </nav>
+        </header>
 
-    <button class="newnoteButton"
-        type="button">
-        New Note
-    </button>
+        <article>
+            <div class="wholeNote">
+            <div class="topButton">
+                <button class="noteButton" type="button">
+                    New Note
+                </button>
 
-    <button class="themeButton"
-        type="button">
-        Dark Theme
-    </button>
+                <button class="themeButton" type="button">
+                    Dark Theme
+                </button>
+            </div>
 
-    <button class="saveButton"
-        type="button">
-        Save
-    </button>
-
-    <button class="cancelButton"
-        type="button">
-        Cancel
-    </button>
-
-
-    <textarea name="textarea"
-        rows="7" cols="120"
-        placeholder="Comment text.">
+            <label>
+                <textarea class="text" rows="7" cols="120" placeholder="Comment text.">
     </textarea>
+            </label>
+
+            <div class="bottomButton">
+                <button class="saveButton" type="button">
+                    Save
+                </button>
+
+                <button class="cancelButton" type="button">
+                    Cancel
+                </button>
+            </div>
+        </div>
+        </article>
 
 
+    </main>
 
+
+    <div class="sideNote">
+        <h1>My notes</h1>
+        <nav>
+            <li>note one</li>
+            <li>note two</li>
+    </div>
 
 
 
     <footer>
-        Keep in Touch
-        <p><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png" width="50" height="50" alt="LinkedIn">
-            <img src="https://cdn0.iconfinder.com/data/icons/internet-line/512/Internet_Line-02-512.png" width="50" height="50" alt="Search"></p>
+        <h2>Keep in Touch</h2>
+        <div class="icons">
+            <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png"
+                width="50" height="50" alt="LinkedIn">
+            <img src="https://cdn0.iconfinder.com/data/icons/internet-line/512/Internet_Line-02-512.png" width="50"
+                height="50" alt="Search">
+        </div>
     </footer>
 </body>
 

@@ -1,72 +1,97 @@
-html{
+/* body{
     font-family: 'Indie Flower', cursive;
     background-color: #FAF4ED;
     color: #393552;
 }
 
 
-h1{
+body{
+    display: grid;
+}
+
+main{
+    grid-column: 2/6;
+}
+
+.mainTitle{
+    grid-column: 2/6;
     text-align: center;
 }
 
-
-
-.betternotes li{
-    list-style-type: none;
+.mainTitle li{
     display: inline;
-    float: right;
     padding: 1em;
-    font-size: 20px;
+    float: right;
+}
+
+.sideNote{
+    grid-row: 1/4;
+    background-color: #f6c177;
 }
 
 
-.newnoteButton{
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
+.wholeNote{
+    padding: 2em;
+
+}
+
+
+.wholeButton{
+    display: grid;
+}
+
+
+main button{
+    height: 2em;
+    margin: 2em;
+}
+
+.bottomButton{
+    margin-left: 40em;
+}
+
+
+.noteButton, .saveButton{
     font-size: 1rem;
     text-align: center;
     color: #fff;
     border-radius: 10px;
-    background-color: #26233a;
+    background-color: #31748f;
 }
 
 .themeButton{
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
     font-size: 1rem;
     text-align: center;
     color: #fff;
     border-radius: 10px;
     background-color: #26233a;
+    margin-left: 35em;
 }
 
-.saveButton{
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color: #fff;
-    border-radius: 10px;
-    background-color: #26233a;
-}
 
 .cancelButton{
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
     font-size: 1rem;
     text-align: center;
     color: #fff;
     border-radius: 10px;
-    background-color: #26233a;
+    background-color: #b4637a;
 }
+
+
 
 textarea{
     letter-spacing: 1px;
     line-height: 1.5;
     border-radius: 5px;
     border: 3px solid #6e6a86;
+} 
+
+footer{
+    margin-left: 25em;
 }
+
+
+@media (max-width: 600px){
+    body {
+        display: block;
+    } */
